@@ -15,6 +15,7 @@ public class holidayStepDefinition {
     public void i_want_to_select_a_holiday_category() {
     	BaseClass.openPage("https://www.thomascook.in");
         actions.setHolidays();
+        
     }
 
     @When("the user  select a Europe Tour package")

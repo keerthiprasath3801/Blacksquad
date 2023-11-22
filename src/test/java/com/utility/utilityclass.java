@@ -12,10 +12,10 @@ public class utilityclass {
 	public String Password;
  
 	public utilityclass() {
-		data();
+		data1();
 	}
-	public void data() {
-		File file = new File("C:\\BlackSquad_PilotProject\\BlackSquad_PilotProject_1\\Thomascook\\src\\test\\resources\\features\\login.feature");
+	public void data1() {
+		File file = new File("C:\\BlackSquad_PilotProject\\BlackSquad_PilotProject_1\\Thomascook\\src\\test\\resources\\logindata.properties");
 		FileInputStream fio =null;
 		try {
 			fio = new FileInputStream(file);
